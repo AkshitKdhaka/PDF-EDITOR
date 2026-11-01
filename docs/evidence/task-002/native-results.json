@@ -1,0 +1,16 @@
+{
+  "engine": "@embedpdf/pdfium@2.15.1",
+  "node": "v24.20.0",
+  "nativeRoundTrip": "pass",
+  "preservedMatrixSizeColor": true,
+  "changedInside": 6347,
+  "changedOutside": 0,
+  "originalSha256": "99cb951f2697b82fe6c5ebe34e251131f28a7cdc7c832a96eb514748f14fdd82",
+  "editedSha256": "8a70fc42cc8bd035b1b274183dbc89b076ffdf459e492c4b35de48285e0f5a4d",
+  "limitations": [
+    "Synthetic Helvetica fixture only",
+    "No glyph/overflow guard in low-level adapter",
+    "No complex script shaping claim",
+    "Top-level objects only"
+  ]
+}

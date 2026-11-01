@@ -1,0 +1,22 @@
+[
+  {
+    "script": "Latin",
+    "textRoundTrip": true,
+    "shapingVerified": false
+  },
+  {
+    "script": "Devanagari",
+    "textRoundTrip": false,
+    "shapingVerified": false
+  },
+  {
+    "script": "Arabic",
+    "textRoundTrip": false,
+    "shapingVerified": false
+  },
+  {
+    "script": "CJK",
+    "textRoundTrip": false,
+    "shapingVerified": false
+  }
+]

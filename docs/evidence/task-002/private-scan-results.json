@@ -1,0 +1,9 @@
+{
+  "fixture": "sample-01",
+  "operation": "Read-only local English OCR",
+  "characters": 801,
+  "engineConfidence": 87,
+  "groundTruthAccuracy": "Not measured",
+  "sourceUnchanged": true,
+  "scanEditing": "Not attempted; noisy-background reconstruction unresolved"
+}

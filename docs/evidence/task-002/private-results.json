@@ -1,0 +1,10 @@
+{
+  "fixture": "sample-02",
+  "roundTrip": true,
+  "changedPixels": 1489,
+  "changedOutsideTarget": 0,
+  "stylePreserved": true,
+  "sourceUnchanged": true,
+  "sourceSha256": "18e835da91464804e976785778052a9d08ccad6ee7a0d300bff5a6a416a9d2e4",
+  "note": "Non-personal heading changed on a local copy; broad editing remains unproven."
+}

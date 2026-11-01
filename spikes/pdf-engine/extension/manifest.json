@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Local PDF Engine Lab",
+  "version": "0.0.1",
+  "description": "Private feasibility harness using synthetic PDFs. Not a production PDF editor.",
+  "action": { "default_title": "Open PDF Engine Lab" },
+  "background": { "service_worker": "background.js" },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'none'; connect-src 'self'; worker-src 'self';"
+  }
+}

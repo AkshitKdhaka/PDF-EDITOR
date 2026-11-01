@@ -1,0 +1,25 @@
+{
+  "name": "local-pdf-editor-feasibility",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Isolated local PDF engine evaluation; not a production editor",
+  "scripts": {
+    "spike": "node spikes/pdf-engine/probe.mjs",
+    "spike:ocr": "node spikes/pdf-engine/ocr-probe.mjs",
+    "spike:build": "node spikes/pdf-engine/build.mjs",
+    "spike:browser": "node spikes/pdf-engine/browser-smoke.mjs",
+    "build": "node scripts/build.mjs",
+    "test:viewer": "node tests/viewer-browser.mjs"
+  },
+  "dependencies": {
+    "@embedpdf/pdfium": "2.15.1",
+    "pngjs": "7.0.0",
+    "tesseract.js": "6.0.1"
+  },
+  "devDependencies": {
+    "@tesseract.js-data/eng": "1.0.0",
+    "esbuild": "0.25.12",
+    "playwright-core": "1.56.1"
+  }
+}

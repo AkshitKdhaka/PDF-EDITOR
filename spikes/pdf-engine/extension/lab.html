@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Local PDF Engine Lab</title><link rel="stylesheet" href="lab.css"></head>
+<body><main><p class="eyebrow">FEASIBILITY PROTOTYPE · 0.0.1</p><h1>Local PDF Engine Lab</h1>
+<p>Test actual text replacement and local OCR using a synthetic document. All processing stays in this extension.</p>
+<p class="notice">This is an engineering test, not the finished editor. Scanned-page reconstruction is approximate and limited to a known plain background. Other languages and arbitrary PDFs are not validated.</p>
+<button id="run" disabled>Loading local engine…</button> <button id="save" disabled>Download tested native PDF</button>
+<p id="status" role="status">Initializing bundled WebAssembly.</p>
+<section aria-label="PDF comparison"><div><h2>Original</h2><canvas id="before"></canvas></div><div><h2>Edited</h2><canvas id="after"></canvas></div></section>
+<h2>Test evidence</h2><pre id="result">Not run</pre></main><script src="tesseract.min.js"></script><script type="module" src="lab.js"></script></body></html>

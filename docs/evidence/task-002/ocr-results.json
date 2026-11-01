@@ -1,0 +1,9 @@
+{
+  "localOcr": "pass",
+  "model": "eng@1.0.0 / 4.0.0",
+  "sourceImageOnly": true,
+  "visiblePixelReplacement": true,
+  "reopenedPdfOcr": "pass",
+  "fidelity": "approximate",
+  "scope": "Synthetic English scan with known white background; no arbitrary scan reconstruction claim"
+}

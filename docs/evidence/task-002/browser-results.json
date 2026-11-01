@@ -1,0 +1,12 @@
+{
+  "nativeRoundTrip": "pass",
+  "localOcr": "pass",
+  "scanPixelEditRoundTrip": "pass",
+  "runtime": "MV3 extension",
+  "assets": "bundled",
+  "scope": "Synthetic English fixture only; approximate scan reconstruction",
+  "offline": true,
+  "externalHttpRequests": [],
+  "pageErrors": [],
+  "browserVersion": "151.0.7922.34"
+}
